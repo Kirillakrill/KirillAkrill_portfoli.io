@@ -1,36 +1,85 @@
 body {
-    background-color: aliceblue;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: black;
 }
 
-.main__menu {
+a {
+    text-decoration: none;
+    color: floralwhite;
+}
 
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.invisible__heading {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .navigation {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+.initials__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 30px;
+    padding: 20px 0;
+    margin-left: 30px;
+}
+
 
 .navigation__list {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
 
-    margin: 0 auto;
     padding: 10px 0;
+}
+.navigation__item:last-of-type {
+    margin-right: 30px;
+}
 
-    list-style: none;
-    text-decoration: none;
-
-    box-shadow: 0 0 5px red;
+.navigation__item:nth-of-type(2) {
+    margin-left: 50px;
 }
 
 .navigation__item {
     width: 55px;
     padding: 5px 3px;
-    background-color: aqua;
     margin-right: 20px;
 }
 
-.long__item {
-    width: 155px;
+.basic__information {
+
+}
+
+.logo__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.logo {
+
+}
+
+.text__container {
+    box-shadow: 0 0 5px;
 }
