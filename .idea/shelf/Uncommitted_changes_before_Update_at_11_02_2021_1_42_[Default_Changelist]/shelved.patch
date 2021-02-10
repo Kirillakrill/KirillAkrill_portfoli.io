@@ -1,0 +1,423 @@
+Index: _config.yml
+===================================================================
+--- _config.yml	(revision 41da13ffdeb29dfbe436289e4415c3ea41dc5c62)
++++ _config.yml	(revision 41da13ffdeb29dfbe436289e4415c3ea41dc5c62)
+@@ -1,1 +0,0 @@
+-theme: jekyll-theme-merlot
+\ No newline at end of file
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- index.html	(revision 41da13ffdeb29dfbe436289e4415c3ea41dc5c62)
++++ index.html	(revision 41da13ffdeb29dfbe436289e4415c3ea41dc5c62)
+@@ -1,98 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <title>Портфолио</title>
+-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600&display=swap" rel="stylesheet">
+-    <link rel="stylesheet" href="css/style.css">
+-</head>
+-<body>
+-    <header class="main__header">
+-        <h1 class="invisible">
+-            Портфолио Kirill Akrill
+-        </h1>
+-        <nav class="navigation">
+-            <h3 class="invisible">
+-                Навигация по сайту
+-            </h3>
+-            <div class="initials__container">
+-                <a class="initials__link" href="index.html">
+-                    K<p class="visible__name invisible">irill</p>A<p class="visible__name invisible">krill</p>
+-                </a>
+-            </div>
+-            <ul class="navigation__list">
+-                <li class="navigation__item">
+-                    <a href="#">Главная</a>
+-                </li>
+-                <li class="navigation__item">
+-                    <a href="#">1 курс</a>
+-                </li>
+-                <li class="navigation__item">
+-                    <a href="#">2 курс</a>
+-                </li>
+-                <li class="navigation__item">
+-                    <a href="#">3 курс</a>
+-                </li>
+-                <li class="navigation__item">
+-                    <a href="#">4 курс</a>
+-                </li>
+-            </ul>
+-        </nav>
+-    </header>
+-    <main>
+-        <section class="basic__information">
+-            <h3 class="invisible">
+-                Основная информация
+-            </h3>
+-            <div class="logo__container">
+-                <img class="logo" src="img/logo__face2.jpg" alt="Логотип с изображением зайца в очках на фоне грффити">
+-            </div>
+-            <div class="text__container">
+-                <h3>
+-                    Немного о себе
+-                </h3>
+-                <p class="text__information">
+-                    Я родился в Санкт-Петербурге в 2000 году, там же поступил в РГПУ им. Герцена
+-                    на направлние "Информатика и вычислительная техника". Также прохожу различные
+-                    крусы по веб-разработке и веб-дизайну, также активно практикую самообучени.
+-                </p>
+-                <p class="text__information">
+-                    Люблю делать простые и красивые вещи. В дизайне мне больше всего нравится
+-                    простота, локоничность, минималистичность и продуманность. Стараюсь лишний
+-                    раз не усложнять задачу ненужными вещами. В дизайне, на мой взгляд, каждая
+-                    вещь должна выполнять свою функцию.
+-                </p>
+-                <p class="text__information">
+-                    Чем я занимаюсь? Верстка сайтов, добавление интерактивных элементов, разработка
+-                    дизайна сайта. Также танцую делаю танцевальные шоу, как один, так и вместе
+-                    со своей командой.
+-                </p>
+-            </div>
+-        </section>
+-    </main>
+-    <footer>
+-        <section class="other__links">
+-            <h2 class="invisible">
+-                Другие ссылки
+-            </h2>
+-            <ul class="other__links__list">
+-                <li class="other__link">
+-                    <a href="#">
+-                        Мои контакты
+-                    </a>
+-                </li>
+-                <li class="other__link">
+-                    <a href="#">
+-                        Иная деятельность
+-                    </a>
+-                </li>
+-                <li class="other__link">
+-                    <a href="#">
+-                        Внеучебные проекты
+-                    </a>
+-                </li>
+-            </ul>
+-       </section>
+-    </footer>
+-</body>
+-</html>
+Index: .idea/workspace.xml
+===================================================================
+--- .idea/workspace.xml	(revision 41da13ffdeb29dfbe436289e4415c3ea41dc5c62)
++++ .idea/workspace.xml	(revision 41da13ffdeb29dfbe436289e4415c3ea41dc5c62)
+@@ -1,151 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="BranchesTreeState">
+-    <expand>
+-      <path>
+-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-      </path>
+-      <path>
+-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-      </path>
+-      <path>
+-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+-      </path>
+-    </expand>
+-    <select />
+-  </component>
+-  <component name="ChangeListManager">
+-    <list default="true" id="b4cf63d8-2f3d-4da7-b6c5-743add3e1bd5" name="Default Changelist" comment="Внесенные изменения:&#10;1. Доработана разметка в файл index.html&#10;2. Согласно утвержденному дизайну добавлены стили в файл style.css">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+-    </list>
+-    <option name="SHOW_DIALOG" value="false" />
+-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-    <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="CSS File" />
+-      </list>
+-    </option>
+-  </component>
+-  <component name="Git.Settings">
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-  </component>
+-  <component name="ProjectId" id="1iVz4M9UY7fbzQAIBaaU6plZKZd" />
+-  <component name="ProjectViewState">
+-    <option name="hideEmptyMiddlePackages" value="true" />
+-    <option name="showLibraryContents" value="true" />
+-  </component>
+-  <component name="PropertiesComponent">
+-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+-    <property name="WebServerToolWindowFactoryState" value="false" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+-    <property name="list.type.of.created.stylesheet" value="CSS" />
+-    <property name="vue.rearranger.settings.migration" value="true" />
+-  </component>
+-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-  <component name="TaskManager">
+-    <task active="true" id="Default" summary="Default task">
+-      <changelist id="b4cf63d8-2f3d-4da7-b6c5-743add3e1bd5" name="Default Changelist" comment="" />
+-      <created>1602007354872</created>
+-      <option name="number" value="Default" />
+-      <option name="presentableId" value="Default" />
+-      <updated>1602007354872</updated>
+-      <workItem from="1602007355958" duration="1976000" />
+-      <workItem from="1602009354340" duration="235000" />
+-      <workItem from="1602075435291" duration="3323000" />
+-      <workItem from="1602096283347" duration="301000" />
+-      <workItem from="1602110607549" duration="4631000" />
+-      <workItem from="1602167754215" duration="5558000" />
+-    </task>
+-    <task id="LOCAL-00001" summary="test">
+-      <created>1602007421030</created>
+-      <option name="number" value="00001" />
+-      <option name="presentableId" value="LOCAL-00001" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1602007421030</updated>
+-    </task>
+-    <task id="LOCAL-00002" summary="Добавлены стили для кнопок">
+-      <created>1602009515361</created>
+-      <option name="number" value="00002" />
+-      <option name="presentableId" value="LOCAL-00002" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1602009515361</updated>
+-    </task>
+-    <task id="LOCAL-00003" summary="Добавлена полная резметка главной страницыы">
+-      <created>1602077897110</created>
+-      <option name="number" value="00003" />
+-      <option name="presentableId" value="LOCAL-00003" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1602077897110</updated>
+-    </task>
+-    <task id="LOCAL-00004" summary="Добавлена полная резметка главной страницыы">
+-      <created>1602077994467</created>
+-      <option name="number" value="00004" />
+-      <option name="presentableId" value="LOCAL-00004" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1602077994467</updated>
+-    </task>
+-    <task id="LOCAL-00005" summary="Исправлена ошибка в ссылке на страницу вконтакте">
+-      <created>1602078170029</created>
+-      <option name="number" value="00005" />
+-      <option name="presentableId" value="LOCAL-00005" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1602078170029</updated>
+-    </task>
+-    <task id="LOCAL-00006" summary="Внесенные изменения:&#10;1. Доработана разметка в файл index.html&#10;2. Согласно утвержденному дизайну добавлены стили в файл style.css">
+-      <created>1602114946059</created>
+-      <option name="number" value="00006" />
+-      <option name="presentableId" value="LOCAL-00006" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1602114946059</updated>
+-    </task>
+-    <option name="localTasksCounter" value="7" />
+-    <servers />
+-  </component>
+-  <component name="TypeScriptGeneratedFilesManager">
+-    <option name="version" value="3" />
+-  </component>
+-  <component name="Vcs.Log.Tabs.Properties">
+-    <option name="TAB_STATES">
+-      <map>
+-        <entry key="MAIN">
+-          <value>
+-            <State />
+-          </value>
+-        </entry>
+-      </map>
+-    </option>
+-    <option name="oldMeFiltersMigrated" value="true" />
+-  </component>
+-  <component name="VcsManagerConfiguration">
+-    <MESSAGE value="test" />
+-    <MESSAGE value="Добавлены стили для кнопок" />
+-    <MESSAGE value="Добавлена полная резметка главной страницыы" />
+-    <MESSAGE value="Исправлена ошибка в ссылке на страницу вконтакте" />
+-    <MESSAGE value="Внесенные изменения:&#10;1. Доработана разметка в файл index.html&#10;2. Согласно утвержденному дизайну добавлены стили в файл style.css" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Внесенные изменения:&#10;1. Доработана разметка в файл index.html&#10;2. Согласно утвержденному дизайну добавлены стили в файл style.css" />
+-  </component>
+-  <component name="WindowStateProjectService">
+-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602096582502">
+-      <screen x="0" y="0" width="1536" height="824" />
+-    </state>
+-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602096582502" />
+-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602114953052">
+-      <screen x="0" y="0" width="1536" height="824" />
+-    </state>
+-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602114953052" />
+-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602077327979">
+-      <screen x="0" y="0" width="1536" height="824" />
+-    </state>
+-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602077327979" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: css/style.css
+===================================================================
+--- css/style.css	(revision 41da13ffdeb29dfbe436289e4415c3ea41dc5c62)
++++ css/style.css	(revision 41da13ffdeb29dfbe436289e4415c3ea41dc5c62)
+@@ -1,129 +0,0 @@
+-body {
+-    font-family: 'Montserrat Alternates', sans-serif;
+-    background-color: black;
+-}
+-
+-a {
+-    text-decoration: none;
+-    color: floralwhite;
+-}
+-
+-li {
+-    list-style: none;
+-    text-decoration: none;
+-}
+-
+-.invisible {
+-    position: absolute;
+-    width: 1px;
+-    height: 1px;
+-    margin: -1px;
+-    border: 0;
+-    padding: 0;
+-    white-space: nowrap;
+-    clip-path: inset(100%);
+-    clip: rect(0 0 0 0);
+-    overflow: hidden;
+-}
+-
+-.navigation {
+-    display: flex;
+-    flex-direction: row;
+-    justify-content: space-between;
+-
+-    font-size: 19px;
+-}
+-
+-.initials__container {
+-    display: flex;
+-    flex-direction: column;
+-    justify-content: center;
+-
+-    width: 30px;
+-    padding: 20px 0;
+-    margin-left: 30px;
+-}
+-
+-.visible__name {
+-    display: flex;
+-    flex-direction: column;
+-    justify-content: flex-start;
+-
+-    transform: translateX(0) translateY(-16px);
+-}
+-
+-.initials__link {
+-    width: 100px;
+-    display: flex;
+-    flex-direction: row;
+-    justify-content: flex-start;
+-
+-    padding: 0;
+-
+-}
+-
+-.navigation__list {
+-    display: flex;
+-    flex-direction: row;
+-    justify-content: flex-end;
+-
+-    padding: 10px 0;
+-}
+-.navigation__item:last-of-type {
+-    margin-right: 30px;
+-}
+-
+-.navigation__item:nth-of-type(2) {
+-    margin-left: 50px;
+-}
+-
+-.navigation__item {
+-    width: 75px;
+-    padding: 5px 3px;
+-    margin-right: 20px;
+-}
+-
+-.basic__information {
+-    padding-top: 40px;
+-    margin-bottom: 60px;
+-}
+-
+-.logo__container {
+-    display: flex;
+-    flex-direction: row;
+-    justify-content: center;
+-}
+-
+-.logo {
+-    width: 450px;
+-    border-radius: 50%;
+-}
+-
+-.text__container {
+-    padding: 0 100px;
+-}
+-
+-.text__information {
+-    font-weight: 800;
+-    font-size: 40px;
+-    text-align: center;
+-    color: floralwhite;
+-    width: 1100px;
+-
+-    margin: 0 auto;
+-    padding-bottom: 35px;
+-}
+-
+-.other__links {
+-    font-size: 19px;
+-}
+-
+-.other__links__list {
+-    display: flex;
+-    flex-direction: row;
+-    justify-content: flex-end;
+-}
+-.other__link {
+-    margin-right: 20px;
+-}
+-
+Index: Second_year.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Second_year.html	(date 1612996929932)
++++ Second_year.html	(date 1612996929932)
+@@ -0,0 +1,10 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>Title</title>
++</head>
++<body>
++
++</body>
++</html>
+\ No newline at end of file
